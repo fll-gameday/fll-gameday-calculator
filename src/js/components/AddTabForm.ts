@@ -36,7 +36,7 @@ export default class StartTabForm implements m.ClassComponent<StartTabFormAttrs>
                         'select#new-team-id.select-dropdown',
                         {  onchange: scorecard.getTeamMatches.bind(scorecard) },
                         identity.teams.map((v) => {
-                            return m('option', { value: v.id }, [v.prettyName]);
+                            return m('option', { value: v.id }, [v.prettyNameReverse]);
                         })
                     ),
                     m('label', { for: 'new-match-id' }, ['Match to Score']),

@@ -42,6 +42,7 @@ export interface EventTeam {
     id: string,
     name: string,
     prettyName: string,
+    prettyNameReverse: string,
     customTeamId: string,
 };
 
