@@ -160,6 +160,10 @@ const data: Year = {
                 '2025/m03.jpg',
               ],
             },
+          ],
+        },
+        {
+          options: [
             {
               title: {
                 en: 'Bonus: and the opposing team\'s minecart is on this team\'s field',
@@ -170,7 +174,7 @@ const data: Year = {
               points: 10,
               images: [],
             },
-          ],
+          ]
         },
       ],
       constraints: [
