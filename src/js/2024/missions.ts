@@ -828,4 +828,4 @@ const data: Year = {
   ],
 };
 
-export {data};
+export { data };
