@@ -294,27 +294,27 @@ export class FllScorer extends AbstractScorer<MissionObject2025, Warnings2025> {
     }
 
     if (booleanMission<MissionObject2025>(missions, 'm14_minecart')) {
-      score += 10;
+      score += 5;
     }
 
     if (booleanMission<MissionObject2025>(missions, 'm14_scale_pan')) {
-      score += 10;
+      score += 5;
     }
 
     if (booleanMission<MissionObject2025>(missions, 'm14_topsoil')) {
-      score += 10;
+      score += 5;
     }
 
     if (booleanMission<MissionObject2025>(missions, 'm14_artifact')) {
-      score += 10;
+      score += 5;
     }
 
     if (booleanMission<MissionObject2025>(missions, 'm14_ore')) {
-      score += 10;
+      score += 5;
     }
 
     if (booleanMission<MissionObject2025>(missions, 'm14_millstone')) {
-      score += 10;
+      score += 5;
     }
 
     /*
