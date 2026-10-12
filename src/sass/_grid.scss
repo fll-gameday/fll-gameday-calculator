@@ -86,7 +86,7 @@
 
   .number {
     background: var(--challenge-missions-color);
-    color: $scoreboard-color-text-light;
+    color: var(--challenge-missions-text-color, #{$scoreboard-color-text-light});
     min-width: 60px;
     text-align: center;
   }

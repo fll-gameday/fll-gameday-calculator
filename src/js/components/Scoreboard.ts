@@ -75,6 +75,12 @@ export default class Scoreboard implements m.ClassComponent<ScoreboardAttrs> {
       '--challenge-penalties-color': data.meta.colors.penalties,
     }
 
+    const { main_text, missions_text, scoring_text, main_accent } = data.meta.colors;
+    if (main_text) style['--challenge-main-text-color'] = main_text;
+    if (missions_text) style['--challenge-missions-text-color'] = missions_text;
+    if (scoring_text) style['--challenge-scoring-text-color'] = scoring_text;
+    if (main_accent) style['--challenge-main-accent-color'] = main_accent;
+
     if (data.meta.no_equipment_constraint_icon) {
       style['--challenge-no-equipment-constraint-image'] = `url(${Configuration.imagePath}${data.meta.no_equipment_constraint_icon})`;
     }

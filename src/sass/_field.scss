@@ -71,7 +71,7 @@
     left: $pointer-normal-size/-2;
     line-height: $pointer-normal-size;
     background: var(--challenge-missions-color);
-    color: $scoreboard-color-text-light;
+    color: var(--challenge-missions-text-color, #{$scoreboard-color-text-light});
 
     &, .score, .number {
       transition: $scoreboard-transition-mission-pointer all;
@@ -92,6 +92,7 @@
       top: $pointer-scoring-size/-2;
       left: $pointer-scoring-size/-2;
       background: var(--challenge-scoring-color);
+      color: var(--challenge-scoring-text-color, #{$scoreboard-color-text-light});
       line-height: 50px;
 
       .score {

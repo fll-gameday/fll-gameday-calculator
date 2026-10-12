@@ -74,7 +74,7 @@
     font-weight: inherit;
     cursor: pointer;
     background: var(--challenge-main-color);
-    color: $scoreboard-color-text-light;
+    color: var(--challenge-main-text-color, #{$scoreboard-color-text-light});
     font-size: 1.2em;
 
     &.header-block {
@@ -88,7 +88,7 @@
 
   .score {
     background: var(--challenge-main-color);
-    color: $scoreboard-color-text-light;
+    color: var(--challenge-main-text-color, #{$scoreboard-color-text-light});
     font-size: 2em;
     padding: 0 50px;
     text-align: center;

@@ -60,6 +60,10 @@ export interface YearLink {
 
 const years: YearLink[] = [
   {
+    scorer: new (require('./2026/scorer').FllScorer),
+    data: require('./2026/missions').data,
+  },
+  {
     scorer: new (require('./2025/scorer').FllScorer),
     data: require('./2025/missions').data,
   },

@@ -53,10 +53,10 @@
       }
 
       &.active {
-        border-color: var(--challenge-main-color);
+        border-color: var(--challenge-main-accent-color, var(--challenge-main-color));
 
         .points {
-          color: var(--challenge-main-color);
+          color: var(--challenge-main-accent-color, var(--challenge-main-color));
         }
       }
     }
@@ -103,10 +103,10 @@
     }
 
     &.active {
-      border-color: var(--challenge-main-color);
+      border-color: var(--challenge-main-accent-color, var(--challenge-main-color));
 
       .fake-checkbox, .points {
-        color: var(--challenge-main-color);
+        color: var(--challenge-main-accent-color, var(--challenge-main-color));
       }
     }
 

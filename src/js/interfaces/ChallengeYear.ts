@@ -11,6 +11,11 @@ export interface Year {
       missions: string
       scoring: string
       penalties: string
+      // Optional overrides for accessibility; fall back to light text / the main color
+      main_text?: string
+      missions_text?: string
+      scoring_text?: string
+      main_accent?: string
     }
     no_equipment_constraint_icon?: string
   }
